@@ -1,0 +1,138 @@
+.container {
+  background-color: #9bb5d1;
+  height: 900px;
+  margin: 50px auto 50px auto;
+  justify-content: center;
+  padding: 0;
+  border-radius: 15px;
+
+  & {
+    .form-container {
+      background-color: #fff;
+      height: 800px;
+      width: 600px;
+      border-radius: 20px;
+      padding: 50px 20px;
+
+      & {
+        .inputs-container {
+          margin: 40px;
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+
+          .Input-line {
+            border: 2px solid #f2f3f6;
+            background-color: #f2f3f6;
+            border-radius: 5px;
+            margin-right: 20px;
+          }
+
+          & {
+            .form-label {
+              display: flex;
+              color: #555555;
+            }
+
+            .form-control {
+              border: none;
+              background-color: #f2f3f6;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+img {
+  border-radius: 20px;
+}
+
+.title {
+  color: #992360;
+}
+
+.checkbox-container {
+  margin: 40px;
+  gap: 15px;
+}
+
+.icon {
+  margin: auto;
+  padding: 0 10px;
+  color: #d5d5d6;
+}
+
+::placeholder {
+  color: red;
+  opacity: 1; /* Firefox */
+}
+
+.form-check {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 5px;
+}
+
+.form-check-input {
+  border: solid 2px #7d7d7d;
+  &:checked {
+    border-color: #009e55;
+    background-color: #009e55;
+  }
+}
+
+.btn-primary {
+  border-radius: 0;
+  border-color: #e476a7;
+  background-color: #e476a7;
+  height: 50px;
+  font-size: 20px;
+  &:hover {
+    background-color: #e476a7;
+    border-color: #e476a7;
+  }
+}
+
+.line-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  border: 1px solid #ededed;
+  height: 1px;
+}
+
+.gmail-button {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: none;
+  font-size: 17px;
+  color: #e94234;
+}
+
+.facebook-button {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: #f5f9ff;
+  color: #307dff;
+  font-size: 17px;
+}
+
+.link {
+  color: #555555;
+}
